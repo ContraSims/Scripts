@@ -1,4 +1,5 @@
-Repository Overview:
+**Repository Overview**:
+
 This section of the repository contains scripts developed as part of my research work. It is organised to support data analysis, small automation of work, and atomistic modelling. 
 
 1. Python Scripts: Used for plotting graphs, data extraction and post-processing of simulation outputs
