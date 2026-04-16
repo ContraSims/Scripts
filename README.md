@@ -16,4 +16,4 @@ This section of the repository contains scripts developed as part of my research
 This section of the repository includes scripts developed by other researchers that were utilised in my work. Full credit goes to the original authors for their valuable contributions.
 
 1. **Python Scripts by other researchers**: Python and Bash scripts.
-2. **CI-NEB vasp scripts*: Scripts for performing Climbing Image Nudged Elastic Band Calculation in VASP.
+2. **CI-NEB vasp scripts**: Scripts for performing Climbing Image Nudged Elastic Band Calculation in VASP.
