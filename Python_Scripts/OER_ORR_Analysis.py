@@ -41,7 +41,6 @@ def orr_overpotential(delta_G_OH, delta_G_O, delta_G_OOH):
     delta_G4 = delta_G_H2O - delta_G_OH
     delta_Gs = [delta_G1, delta_G2, delta_G3, delta_G4]
     max_G_step = max(delta_Gs) 
-    #min_G_step = np.min(np.abs(delta_Gs)) # The potential-determining step
     orr_overpotential = max_G_step + U_theoretical  
     
     print("\n")
@@ -58,10 +57,9 @@ def orr_overpotential(delta_G_OH, delta_G_O, delta_G_OOH):
       
     return orr_overpotential
   
-
 # Computed from DFT calculations
-E_H2O = -14.21920481  # Reference energy for H2O
-E_H2 = -6.77021166  # Reference energy for H2
+E_H2O = -14.21920481 
+E_H2 = -6.77021166  
 
 # Zero point energy (ZPE) and entropy term (TS) corrections (in eV)
 ZPE_H2O,TS_H2O = 0.57, 0.67
@@ -74,13 +72,13 @@ ZPE_OOH_ads, TS_OOH_ads = 0.48, 0
 
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-# AT THIS POINT OF TIME VALUES NEED TO BE MANUALLY PLACED AT THE SPECIFIED FOR EACH INTERMEDIATE AT DIFFERENT ADSORPTION SITE AND CLEAN SURFACE
+# AT THIS POINT IN TIME, ENERGY VALUES NEED TO BE MANUALLY PLACED AT THE SPECIFIED FOR EACH INTERMEDIATE OH, O, OOH AT DIFFERENT ADSORPTION SITES AND CLEAN SURFACE
 
 systems = {
-    "S": {
-        "OH": -275.16434537,
-        "O": -271.31860860,
-        "OOH": -279.57288871
+    "site_name": {
+                "OH": **_________**,
+                "O": **_________**,
+               "OOH": **_________**
     },
 }
 
